@@ -9,7 +9,7 @@ function App2() {
 
   return (
     <>
-      <label>Current User is: {user}</label>
+      <label> User is: {user}</label>
       <input type="text" onChange={(e) => setUser(e.target.value)} />
     </>
   );
